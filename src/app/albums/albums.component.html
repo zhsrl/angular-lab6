@@ -1,0 +1,20 @@
+<h1 class="album">Albums</h1>
+
+<div class="new_post_div" >
+  <input type="text" name="" id="new_post" [(ngModel)]="newAlbum">
+
+  <button mat-raised-button color="warn" (click)="addAlbum()">New post</button>
+</div>
+
+<div class="post-class">
+    <div class="posts_display" *ngFor="let album of albums">
+      <div class="post">
+        <a class="post-title" [routerLink]="['/albums', album.id]"> {{ album.title }} </a>
+  
+        <button class="remove-post" mat-raised-button color="primary" (click)="deleteAlbum(album.id)">Delete</button>
+</div>
+
+</div>
+
+
+

@@ -1,0 +1,14 @@
+<div id="container">
+
+    <div class="toolbar" role="banner">
+      <h1 class="toolbar-text" [routerLink]="['home']">LAB 6</h1>
+      <button mat-raised-button color="accent" class="create-post" (click)="openPop()">Create new post</button>
+    </div>
+  
+    <div class="check-container" aria-orientation="horizontal">
+  
+      <div class="home" ><a style="text-decoration:none; color: white;" [routerLink]="['home']">Home</a></div>
+      <div class="about"><a style="text-decoration:none; color: white;" [routerLink]="['about']">About</a></div>
+      <div class="albums"><a style="text-decoration:none; color: white;"  [routerLink]="['albums']">Albums</a></div>
+  
+    </div>  

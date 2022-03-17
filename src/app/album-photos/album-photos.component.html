@@ -1,0 +1,10 @@
+<h1>Album Photos</h1>
+
+<div class="view_scroll" *ngFor="let photo of photos">
+    <div class="scroll">
+        <img src="{{photo.url}}">
+    </div>
+</div>
+
+<button mat-raised-button color="primary" (click)="toBack()">Back</button>
+

@@ -1,0 +1,27 @@
+h1 {
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    width: 100px;
+    height: 50px;
+    margin-right: auto;
+}
+
+.view_scroll {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+img{
+    height: 150px;
+}
+
+.view_scroll {
+    display:inline-block;
+}
